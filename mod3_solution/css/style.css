@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    background-color: gray;
+}
+
+ul
+{
+    text-align: center;
+    margin-left: -15px; 
+    margin-right: -15px;
+    border: 1px solid black;
+    
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2
+{
+    margin: 20px;
+    font-family: cursive;
+    color: rgb(62, 49, 75);
+    font-size: 1.4em;
+}
+
+
+.btn:hover
+{
+    border: 2px solid rgb(207, 205, 205);
+}
+
+h4
+{
+    text-align: center;
+}
+.sect
+{
+    width: 100%;
+    border: 10px solid white;
+    background-color: grey;
+    height: 400px;
+    overflow: hidden;
+}
+
+.deskOnly
+{
+    background-color: gray;
+    border: 10px solid white;
+}
+
+h3, .dhead
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px)
+{
+ .deskOnly, .dHead{
+display: none;
+}
+}
